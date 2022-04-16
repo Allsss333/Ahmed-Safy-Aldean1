@@ -1,0 +1,146 @@
+@font-face {
+    font-family: ro;
+    src: url(../Fonts/Rixon-nj00.ttf);
+}
+
+@font-face {
+    font-family: so;
+    src: url(../Fonts/MechanismoRegular-p7ywa.otf);
+}
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: 'Akshar', sans-serif;
+    font-family: 'Cairo', sans-serif;}
+
+/* Header */
+
+header{
+    background-color: rgba(255, 0, 0, 0.862);
+    display: flex;
+    justify-content: space-between;
+    font-family: so;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+header ul li{
+    margin-left: 20px;
+}
+
+/* Section */
+
+section{
+    width: 100%;
+    height: 60vh;
+    background-color: rgba(0, 0, 0, 0.951);
+}
+
+.content{
+    padding: 150px 100px;
+    color: red;
+}
+
+.cards-con{
+    width: 100%;
+    background: black;
+    height: 80vh;
+    color: red;
+}   
+
+.cards-con h1{
+    width: 100%;
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    color: black;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    width: 350px;
+    height: 460px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.card img{
+    width: 60px;
+    height: 60px;
+}
+
+.videos{
+    padding-top: 50px;
+    width: 100%;
+    height: 70vh;
+    background-color: black;
+    color: red;
+    text-align: center;
+}
+
+.videos h2{
+    position: relative;
+    top: 50px;
+}
+
+.videos .vid-con{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.videos video{
+    
+    width: 430px;
+    height: 400px;
+}
+
+
+footer{
+    padding: 30px 0px;
+    width: 100%;
+    height: 40vh;
+    color: red;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer h1{
+    margin-top: 50px;
+}
+
+footer .call{
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
